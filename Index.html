@@ -87,32 +87,23 @@
 		 <h1 id="at2"> Laval </h1>
 		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
 
-<form method="post" action="" enctype="multipart/form-data">
-
-<p>
-<input type="checkbox" name="choix"> M.
-<input type="checkbox" name="choix"> Mme.
-<input type="checkbox" name="choix"> Autres </p>
-<p>
-<label for="prenom">Prenom</label>
-<input class="bl" type="text" id="prenom" name="prenom" placeholder="Votre prenom"></p>
-<p>
-<label for="prenom">Nom   </label>
-<input class="bl" type="text" id="nom" name="nom" placeholder="Votre nom"></p>
-
-<p>
-<label for="prenom">Pays   </label>
-<select class="bl" id="Pays" name="pays">
-<optgroup label="Europe">
-<option value="fr">France</option>
-<option value="it">Italie</option>
-</optgroup>	</p>
-</select></form>
-</div</div></div>
+<form method="post" ><table>
+<tr> <td> Civilité </td> <td> <input type="checkbox"> M. <input type="checkbox">Mme. <input type="checkbox"> Autres </td> </tr>
+<tr> <td> Prénom </td> <td> <input type="text" placeholder="Prénom"> </td> </tr>
+<tr> <td> Nom </td> <td> <input type="text" placeholder="Nom"> </td> </tr>
+<tr> <td> Langue </td> <td> <select><option> Français </option>
+									<option> English </option>
+									<option> Autres </option>
+</select>	</td> </tr>
+<tr> <td> Adresse mail </td> <td> <input type="email" placeholder="Mail"> </td> </tr>
+<tr> <td> Message</td> <td> <textarea id="story" name="story" rows="5" cols="23">
+Saisir votre message </textarea></td> </tr>
+	<tr><td> <input href="mailto:jules.nuguet@etu.univ-tours.fr" type="submit" value="Envoyer"></td></tr>
+</table></form>
 	
 			
 		
-	
+</div></div>
 
 </body>
 <footer>

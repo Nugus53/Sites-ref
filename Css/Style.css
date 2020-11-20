@@ -6,19 +6,21 @@
 form{
 	width: 500px
 }
-label{
-	width: 100px;
-	font-family: 'Roboto', sans-serif;
-}
 select{
 	border: solid;
 	font-family: 'Roboto', sans-serif;
-	width: 300px;
+	width: 167px;
 }
 input{
-		border: solid;
+	border: solid;
 	font-family: 'Roboto', sans-serif;
+	}
+textarea{
+	border: solid;
+	font-family: 'Roboto', sans-serif;
+	width: 160px
 }
+
 select{
 	border: solid;
 	font-family: 'Roboto', sans-serif;
