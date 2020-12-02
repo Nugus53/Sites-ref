@@ -48,7 +48,10 @@
 	 width: 450px;
     height: 300px;
 	z-index: 8;
-	
+	transition: all 1s;
+	position: relative ;
+	top: -50px;
+	right:75px;
 
 }
 
@@ -186,7 +189,7 @@ animation-name:anim-back}
 	display: none;
 	background-color: black;
 	position: relative;
-	top: -165px;
+	top: 150px;
 	width: 300px;
 	height: 150px;
 	color: white;
@@ -222,9 +225,17 @@ animation-name:anim-back}
 	margin: 10px;
 	border-bottom: solid;
 	border-top:solid;
-	background-color: white;
 	height: 300px;
 	width: 300px;}
+.bc1{
+	background-image: url("../img/bag0.png");
+}
+.bc2{
+	background-image: url("../img/ap0.png");
+}
+.bc3{
+	background-image: url("../img/bag0.png");
+}
 .int{
 		display: none;
 		position: relative;
@@ -237,6 +248,117 @@ animation-name:anim-back}
 	background-color: black;
 	height: 300px;
 	width: 300px;}
+.bc1:hover{
+		background-image: url("../img/bag1.png");
+	}
+
+.carre:hover .test{
+	width: 50px;
+	height: 50px;
+	animation-duration: 3s;
+	animation-name: poke;
+	animation-iteration-count: infinite;
+	float : left;
+}
+
+  @keyframes poke {
+	0% {
+	background-image: url("../img/icons3.png");
+	  position: relative;
+	  top:100px;
+	  left: 80px;
+	  opacity: 0%;
+
+	}
+  
+	75% {
+		position: relative;
+		top:0px;
+		left: 0px;
+		opacity: 100%
+	}
+
+	100%{
+		background-image: url("../img/icons3.png");
+		position: relative;
+		top:10px;
+		left: -30px;
+		opacity: 0%
+	}
+  }
+  .carre:hover .test2{
+	
+	width: 50px;
+	height: 50px;
+	animation-duration: 3s;
+	animation-delay: 1S;
+	animation-name: poke2;
+	animation-iteration-count: infinite;
+	float : left;
+}
+
+  @keyframes poke2 {
+	0% {
+	background-image: url("../img/icons.png");
+	  position: relative;
+	  top:100px;
+	  left: 50px;
+	  opacity: 0%;
+
+	}
+  
+	75% {
+		position: relative;
+		top:0px;
+		left: 50px;
+		opacity: 100%
+	}
+
+	100%{
+		background-image: url("../img/icons.png");
+		position: relative;
+		top:10px;
+		left: 50px;
+		opacity: 0%
+	}
+  }
+  .carre:hover .test3{
+	
+	width: 50px;
+	height: 50px;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-name: poke3;
+	animation-iteration-count: infinite;
+	float : left;
+}
+
+  @keyframes poke3 {
+	0% {
+	background-image: url("../img/icons2.png");
+	  position: relative;
+	  top:100px;
+	  left: 100px;
+	  opacity: 0%;
+
+	}
+  
+	75% {
+		position: relative;
+		top: 0px;
+		left: 120px;
+		opacity: 100%
+	}
+
+	100%{
+		background-image: url("../img/icons2.png");
+		position: relative;
+		top:10px;
+		left: 140px;
+		opacity: 0%
+	}
+  }
+
 .carre:hover .int{
 	display: block}
 .carre:hover .cont-c{
