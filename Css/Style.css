@@ -187,13 +187,14 @@ animation-name:anim-back}
 		
 .cont-c{
 	display: none;
-	background-color: black;
+
 	position: relative;
 	top: 150px;
 	width: 300px;
 	height: 150px;
-	color: white;
-	opacity: 75%;}
+
+	opacity: 75%;
+z-index:10 ;}
 .cont-d{
 	
 		position: relative;
@@ -234,12 +235,16 @@ animation-name:anim-back}
 	background-image: url("../img/ap0.png");
 }
 .bc3{
-	background-image: url("../img/bag0.png");
+	background-image: url("../img/tel01.png");
 }
 .int{
+	color: white;
 		display: none;
 		position: relative;
-		width: 300px;}
+		width: 300px;
+		opacity: 100%;
+		z-index: 1;
+}
 .carre:hover{
 	padding: 10px;
 	margin: 10px ;
@@ -259,6 +264,7 @@ animation-name:anim-back}
 	animation-name: poke;
 	animation-iteration-count: infinite;
 	float : left;
+
 }
 
   @keyframes poke {
@@ -358,9 +364,95 @@ animation-name:anim-back}
 		opacity: 0%
 	}
   }
+  .test4{
+	  display: none;
+	  top: -80px;
+  }
+  
+  .carre:hover .test4{
+	display: block;
+	
+	animation-duration: 2s;
+	animation-name: poke4;
+	animation-iteration-count: infinite;
+	float : left;
+}
 
+  @keyframes poke4 {
+	0% {
+		position: relative;
+		top:-10px;
+		left: 90px;
+	
+	  width: 150px;
+	  height: 150px;
+	opacity: 0%;
+
+	}
+  
+	100%{
+		position: relative;
+		top:-10px;
+		left: 90px;
+	
+
+		width: 150px;
+		height: 150px;
+
+	}
+  }
+  .test5{
+
+	display: none;
+
+	height: 30px;
+	width: 30px;
+	background-image: url("../img/tel02.jpg");
+}
+
+.carre:hover .test5{
+  display: block;
+  position: relative;
+  top:95px;
+  left: 130px;
+  animation-duration: 2s;
+  animation-name: poke5;
+  animation-iteration-count: infinite;
+  float : left;
+}
+ 
+  @keyframes poke5 {
+	0% {
+	  transform: scale3d(1, 1, 1);
+
+	}
+	30% {
+	transform: scale3d(1.25, 0.75, 1);
+	}
+	40% {
+	transform: scale3d(0.75, 1.25, 1);
+	}
+	50% {
+	transform: scale3d(1.15, 0.85, 1);
+	}
+	65% {
+	transform: scale3d(0.95, 1.05, 1);
+	}
+	75% {
+	 transform: scale3d(1.05, 0.95, 1);
+	}
+	100% {
+	transform: scale3d(1, 1, 1);
+	}
+  }
+
+ 
 .carre:hover .int{
-	display: block}
+	display: block;
+	background-color: black;
+	opacity: 75%;
+	height: 150px;
+}
 .carre:hover .cont-c{
 	display: block}
 /*Texte*/
