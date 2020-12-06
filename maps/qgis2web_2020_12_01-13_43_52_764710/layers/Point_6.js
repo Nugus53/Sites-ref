@@ -12,6 +12,8 @@ var json_Point_6 = {
 { "type": "Feature", "properties": { "fid": "7", "Titre": "le jardin de la perrine", "ID": null }, "geometry": { "type": "Point", "coordinates": [ -0.769869288369163, 48.066059179819959 ] } },
 { "type": "Feature", "properties": { "fid": "8", "Titre": " la rue de la trinité", "ID": null }, "geometry": { "type": "Point", "coordinates": [ -0.772774397240269, 48.067885773398963 ] } },
 { "type": "Feature", "properties": { "fid": "9", "Titre": "La grande rue", "ID": null }, "geometry": { "type": "Point", "coordinates": [ -0.770937283635015, 48.067948371430653 ] } },
-{ "type": "Feature", "properties": { "fid": "10", "Titre": " le vieux-pont", "ID": null }, "geometry": { "type": "Point", "coordinates": [ -0.769360838803966, 48.068189331877164 ] } }
+{ "type": "Feature", "properties": { "fid": "10", "Titre": " le vieux-pont", "ID": null }, "geometry": { "type": "Point", "coordinates": [ -0.769360838803966, 48.068189331877164 ] } },
+{ "type": "Feature", "properties": { "fid": "11", "Titre": " le vieux-pont", "ID": null }, "geometry": { "type": "Point", "coordinates": [ -0.770937283635015, 48.067948371430653 ] } },
+{ "type": "Feature", "properties": { "fid": "11", "Titre": " le vieux-pont", "ID": null }, "geometry": { "type": "Point", "coordinates": [ -0.770937283635015, 48.067948371430653 ] } }
 ]
 }
